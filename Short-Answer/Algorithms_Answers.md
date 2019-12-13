@@ -16,11 +16,9 @@ c) O(n) Linear time because with each recursive pass the n decreases by 1 until 
 1. list floors ascending 
 2. boolean for broken egg after droppend
 3. start at middle list
-5. while broken is false move floor index up
-    5.1 Save non breaking floors in below f index 
-4. if broken is true move floor index down
-    4.1 save floor in index -1 as floor f
+4. while broken is false move floor index up
+    4.1 Save non breaking floors in below f index
+5. if broken is true move floor index down
+    5.1 save floor in index -1 as floor f
 
 I believe this solution would be O(n)
-
-
